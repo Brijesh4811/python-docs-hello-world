@@ -18,7 +18,7 @@ steps:
 
   - task: AzureWebApp@1
     inputs:
-      azureSubscription: '<f85c32fe-71d1-4fbe-8d0d-d7feead15970>'
+      azureSubscription: '<StudentPlan>'
       appType: 'webAppLinux'
       appName: '<your-unique-app-name>'
       package: '.'
